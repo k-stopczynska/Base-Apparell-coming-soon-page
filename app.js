@@ -14,7 +14,8 @@ form.addEventListener('submit', (e) => {
     }
     if (email.value === '' || email.value === null || !validate(emailString)) {
     message.push('Please provide a valid email');
-    exclamation.style.opacity="1";
+    exclamation.style.opacity = "1";
+    form.style.border = "1px solid red";
     }
     
     if (message.length > 0) {
