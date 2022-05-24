@@ -105,20 +105,20 @@ body {
         display: grid;
         grid-template-columns: 1.3fr 1fr;
         background: url(./images/bg-pattern-desktop.svg) no-repeat;
-        background-position: 0 145%;
+        max-height: 100vh;
     }
     .navbar {
         height: 20%;
         margin-top: 0;
     }
     .logo {
-       height: 200%;
+       height: 150%;
        width: 25%;
         padding: 0;
-        margin-left: 6rem;
+        margin-left: 10rem;
     }
     .hero-image {
-        background: url(./images/hero-desktop.jpg);
+        background: url(./images/hero-desktop.jpg) no-repeat;
         min-height: 100vh;
         min-width: 45vw;
         grid-row: span 3;
@@ -135,14 +135,14 @@ body {
     .description {
         padding: 0;
         margin: 2rem auto;
-        line-height: 1.5;
+        line-height: 2;
     }
     .form {
         margin: 0;
     }
     .container {
-        margin-left: 6rem;
-        margin-right: 8rem;
+        margin-left: 10rem;
+        margin-right: 12rem;
     }
     .arrow {
         padding: 1.8rem 3.5rem;
